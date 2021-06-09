@@ -4,7 +4,7 @@ function FizzBuzz(input: number): void {
 	
 		var output: string = '';
 		if(input %3 == 0)
-				output+="fizz";
+			output+="fizz";
 		if(input %5 == 0)
 			output+="buzz";
 		if(output.length) 
